@@ -1059,7 +1059,7 @@ display: inline-flex;
         width: 768px;
     }
     .header-container {
-        max-height: 72px;
+        /* max-height: 72px; */
     }
     .header-logo {
         margin-right: 120px;
@@ -1067,9 +1067,7 @@ display: inline-flex;
     .header-list {
         display: flex;
     }
-    .header-item-link {
-        padding: 30px 0;
-    }
+    
     .header-address-list {
         display: block;
         gap: 12px;
@@ -1193,7 +1191,7 @@ margin-bottom: 0;
 
 @media screen and (min-width: 1158px) {
    .container {
-    width: 100%;
+    min-width: 1158px;
    }
 
 .width-container {
